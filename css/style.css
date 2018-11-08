@@ -1,5 +1,5 @@
 body {
-  background-color: #0000F;
+  background-color: #fff2e6;
   color: #000000;
   font-size: 16px;
 }
@@ -10,10 +10,6 @@ h1{
   line-height: 1.5;
 }
 
-a{
-  text-decoration: none;
-  color: #00FF00;
-}
 
 h3{
   font-family: Helvetica;
@@ -27,6 +23,8 @@ p{
   line-height: 1.6;
 }
 
+li:hover { color:#0070BC; }
+
 nav {
   background-color: rgba(0,0,0,0.5);
   float: left;
@@ -34,7 +32,12 @@ nav {
   width: 100%;
 }
 
-a:link {color:#007000};
+
+.figure {
+  margin-bottom: 30px;
+}
+
+
 
 .logo {
   margin: 20px;
@@ -63,9 +66,11 @@ ul {
   float: right;
 }
 
+
 li {
   float: right;
   padding: 30px;
+
 }
 
 article {
